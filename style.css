@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.carousel .carousel-item  {
+    height: 687px;
+  }
+  
+   .carousel-item  img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+    
+  }
+
+ 
+
+  section {
+    padding: 80px 0;
+    overflow: hidden;
+  
+}
+.section-header {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.books .card-item {
+    border: 1px solid rgba(82, 86, 94, 0.2);
+    background: #fff;
+    position: relative;
+    border-radius: 0;
+}
+
+.books  .card-item .card-bg {
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.books  .card-item .card-body {
+    padding: 30px;
+}
+
+.books .card-item h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--color-secondary);
+}
+
+.books  .card-item p {
+    color: var(--color-secondary);
+    margin: 0;
+}
+
+.stats .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
+.stats .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #37517e;
+}
+
+.stats .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+
+.stats .progress-bar-wrap {
+    background: #e8edf5;
+    height: 10px;
+}
+
+.stats .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #75b7ff;
+}
+
+#statsArea
+{
+    background-color: #fdf9f7;
+}
+
+
+
+.about .content {
+    background-color: #f6f9ff;
+    padding: 40px;
+}
+
+.about h1 {
+ 
+    font-weight: 700;
+    color: #4154f1;
+    text-transform: uppercase;
+}
+
+.about h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #012970;
+}
+
+.about p {
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+}
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+
+.bi-phone::before {
+    content: "\f4e7";
+}
+
+.contactArea{
+    background-color: #fdf9f7;
+}
+
+
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family:cursive
+}
+
+
+.btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+   
+}
+
+
+
